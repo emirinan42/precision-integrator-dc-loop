@@ -4,7 +4,7 @@ High-precision active integrator design incorporating a DC feedback loop to atte
 
 ## Key Specifications & Hardware
 - **Operational Amplifier:** LTC6268 (Low-noise, high-speed op-amp)
-- **Topology:** Capacitor feedback integrator with active DC loop
+- **Topology:** Reset switch capacitor feedback integrator with active DC loop
 - **EDA & Simulation Tools:** LTspice, Cadence Virtuoso, KiCad
 
 ## Features & Analyses
