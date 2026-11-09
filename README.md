@@ -19,7 +19,7 @@ Shows closed-loop bandwidth, low-frequency offset suppression, and phase margin 
 ### Transient Response
 Time-domain output behavior under reset switch pulses.
 
-<img width="1913" height="441" alt="image" src="https://github.com/user-attachments/assets/e62bc67c-5f1b-4af7-9e37-5e395d76c76f" />
+<img width="1906" height="437" alt="image" src="https://github.com/user-attachments/assets/0de6b649-4716-4937-a032-443221e55271" />
 
 ## How to Run Simulations
 1. Download the `.asc` simulation file from this repository.
