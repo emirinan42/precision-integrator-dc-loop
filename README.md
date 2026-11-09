@@ -25,3 +25,15 @@ Time-domain output behavior under reset switch pulses.
 1. Download the `.asc` simulation file from this repository.
 2. Open with **LTspice**.
 3. Run `.ac` analysis for stability checking or `.tran` for time-domain transient behavior.
+
+## PCB Layout & Hardware Implementation
+
+A custom 2-layer low-noise PCB layout was designed to validate LTspice simulations with real-world hardware.
+
+### 3D Board View
+<img width="1122" height="806" alt="image" src="https://github.com/user-attachments/assets/266d7723-5317-4ca3-beae-34876159145f" />
+
+### Layout Considerations & Noise Mitigation
+- **High-Impedance Node Shielding:** Sensitive feedback trace connected to the LTC6268 inverting input was isolated with a ground guard ring to minimize parasitic capacitance and leakage currents.
+- **Power Integrity:** Placed low-ESR bypass capacitors (100nF and 10µF) in close proximity to the op-amp power supply pins to suppress high-frequency power-rail noise.
+- **Grounding Strategy:** Dedicated solid ground plane on the bottom layer to reduce ground loop inductance.
